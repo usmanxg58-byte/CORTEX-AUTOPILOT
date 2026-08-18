@@ -1,0 +1,24 @@
+/* Copyright (C) CorteX AUTOPILOT - All Rights Reserved */
+{
+  "name": "cortex-autopilot",
+  "version": "1.0.0",
+  "description": "CorteX AUTOPILOT — Enterprise-grade autonomous agent runtime",
+  "main": "dist/cli/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli/index.js",
+    "dev": "ts-node cli/index.ts",
+    "lint": "echo 'Add linters'"
+  },
+  "keywords": ["cortex","autopilot","agent","ai","omni-engine"],
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "yargs": "^17.7.2"
+  }
+}
