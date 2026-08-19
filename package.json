@@ -1,0 +1,14 @@
+{
+  "name": "cortex-autopilot",
+  "version": "0.1.0",
+  "description": "CorteX AI Engine - The next-gen autonomous AI that turns 'impossible' into done.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "prepare": "echo 'prepare: no-op'"
+  },
+  "author": "CorteX Systems",
+  "license": "UNLICENSED"
+}
